@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: burlywood;
+}
+
+/* Header & Navigation */
+nav {
+    padding: 20px;
+    background-color: aquamarine;
+    border-bottom: 10px solid aqua;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav section {
+    padding-top: 5px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+nav section ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+/* My New Website */
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-size-adjust: none;
+    padding: 20px;
+}
+
+#coming-soon {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.photo {
+    background-color: #a82f2f;
+    padding: 10px;
+    border: 15px solid #d65f5f;
+    margin: 20px;
+}
