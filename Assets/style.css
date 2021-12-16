@@ -7,22 +7,23 @@
 
 body {
     background-color: burlywood;
+    margin: 0;
 }
 
 /* Header & Navigation */
 nav {
-    padding: 20px;
+    padding: 20px; 
     background-color: aquamarine;
     border-bottom: 10px solid #e1e437;
-}
-
-nav h1 {
-    display: inline-block;
-    font-size: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 nav section {
-    padding-top: 5px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
@@ -34,11 +35,12 @@ nav section ul li {
 }
 
 /* My New Website */
-h2 {
-    text-align: center;
-    font-size: 2.5em;
-    font-size-adjust: none;
+main section h2 {
+    margin-top: 70px;
     padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    background-color: burlywood;
 }
 
 /* coming soon image */
@@ -52,7 +54,7 @@ h2 {
 #coming-soon {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 35%;
 }
 
 /* about portfolio */
@@ -68,7 +70,7 @@ section aside p {
 }
 
 /* contact me */
-section h3 {
+section h2 {
     display: block;
     text-align: center;
     margin: 0px, 20px, 20px, 20px;
